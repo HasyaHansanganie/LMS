@@ -5,7 +5,7 @@ A web-based platform for managing employee leave requests and approvals, designe
 ## 📽️ Demo Video
 
 <a href="https://drive.google.com/file/d/1ryl6mme42w7gkSnQ041w7Vs6QtHliRBh/view?usp=sharing" target="_blank">
-  <img src="backend/public/userProfiles/image.png" alt="Click here to watch the demo" width="600">
+  <img src="backend/public/userProfiles/demoPreview.png" alt="Click here to watch the demo" width="600">
 </a>
 
 ## 📝 Project Description
