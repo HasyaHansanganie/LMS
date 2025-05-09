@@ -1,0 +1,76 @@
+/* Modern Compact Calendar Style */
+.employee-calendar .fc {
+    font-size: 0.8rem;
+    width: 100% !important;
+    height: auto !important;
+
+}
+
+.employee-calendar .fc .fc-daygrid-day.fc-day-today {
+    background-color: transparent !important;
+}
+
+.employee-calendar .fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 8px;
+}
+
+.employee-calendar .fc .fc-daygrid-day-number {
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+    color: #333;
+}
+
+.employee-calendar .fc .fc-daygrid-day-top {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.employee-calendar .fc .fc-daygrid-event-harness {
+    display: none !important;
+  }
+  
+  .employee-calendar .fc .fc-event {
+    display: none !important;
+  }
+
+  .employee-calendar .fc .fc-daygrid-day-frame {
+    max-height: 30px;
+    margin: 2px;
+    padding: 1px 2px !important;
+    transition: background-color 0.3s ease-in-out;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.employee-calendar .fc .fc-daygrid-body {
+    row-gap: 0 !important;
+}
+
+.employee-calendar .fc .fc-scrollgrid {
+    border: none;
+}
+
+.employee-calendar .fc .fc-col-header-cell-cushion {
+    color: #040404;
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+
+.employee-calendar  .fc-theme-standard td,
+ .employee-calendar .fc-theme-standard th {
+    border: none;
+}
+
+.calendar-wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+    padding: 0.5rem;
+}

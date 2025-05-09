@@ -1,0 +1,9 @@
+
+.w-15 {
+    width: 15% !important;
+}
+
+.hover-bold:hover {
+    font-weight: bold; /* Makes text bold on hover */
+}
+

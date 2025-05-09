@@ -1,0 +1,38 @@
+.admin-calendar .fc {
+    font-size: 0.8rem;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.admin-calendar .fc .fc-daygrid-day.fc-day-today {
+    background-color: transparent !important;
+}
+
+.admin-calendar .fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.admin-calendar .fc .fc-daygrid-day-number {
+    font-weight: 500;
+    color: #333;
+}
+
+.admin-calendar .fc .fc-col-header-cell-cushion {
+    color: #040404;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.admin-calendar .fc .fc-col-header-cell {
+    background-color: #f5f4f4; /* Light gray, you can change to any color */
+    color: #000;               /* Optional: text color */
+    font-weight: bold;
+    padding: 10px;
+}
+
+.admin-calendar .fc-event-title {
+    white-space: pre-line; /* respects \n in the title */
+    font-size: 0.7rem; /* optional: shrink to avoid overflow */
+    line-height: 1.2;   /* optional: control spacing */
+  }
